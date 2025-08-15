@@ -69,19 +69,28 @@ The primary code is available in the `cirrhosis.ipynb` Jupyter Notebook.
 
 The trained XGBoost model achieved a **weighted average F1-score of 92%**, demonstrating its effectiveness in classifying the different stages of cirrhosis.
 
+![alt text](image-1.png)
+
+
 ### Key Metrics:
 
-- **Accuracy**: [Enter Your Accuracy Score Here, e.g., 91.5%]
-- **Weighted Avg Precision**: [Enter Your Precision Score Here]
-- **Weighted Avg Recall**: [Enter Your Recall Score Here]
+- **Accuracy**: 99.79
+- **Weighted Avg Precision**: 0.84
+- **Weighted Avg Recall**: 0.84
 - **Weighted Avg F1-Score**: 0.92
 
 ### Confusion Matrix
 
 The confusion matrix below visualizes the performance of the classifier. The diagonal elements show the number of correct predictions for each stage.
 
+![alt text](image.png) 
+
+The confusion matrix of the Six-Layered NN algorithm:
+![alt text](image-2.png)
 
 *A visual representation of the model's performance in distinguishing between the different cirrhosis stages.*
+
+![alt text](image-3.png)
 
 ## Project Structure
 
